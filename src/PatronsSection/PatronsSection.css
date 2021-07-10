@@ -1,0 +1,77 @@
+section.PatronsSection {
+    height: 640px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid gray;
+    border-radius: 1%;
+    text-align: center;
+    background-image: url('./Images/PatronsSectionBackground.jpeg');
+    background-position: center bottom;
+    background-size: cover;
+    /* I want the text container and product container to appear on top of each other.*/
+    display: flex;
+    flex-direction: column;
+    /* I want some space between this and the MissionSection*/
+    margin-top: 21px;
+}
+
+section.PatronsSection div.TextContainer {
+    border-bottom: 2px solid gray;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.PatronsSection div.TextContainer h4 {
+    font-size: 35px;
+    font-weight: bold;
+    color: palegoldenrod;
+    text-shadow: 3px 3px 2px black;
+    text-decoration: underline;
+}
+
+section.PatronsSection div.TextContainer h5 {
+    color: rgb(221, 221, 221);
+    text-shadow: 1px 1px 1px orangered;
+    font-size: 25px;
+    /* I want some distance between the h4 and the h5 */
+    margin-top: 20px;
+}
+
+section.PatronsSection div.PatronsContainer {
+    height: 80.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.PatronsSection div.PatronsContainer div.Patron{
+    height: 100%;
+    width: 33.3333%;
+    border-right: 2px solid gray;
+}
+
+section.PatronsSection div.PatronsContainer div.lastPatron{
+    border-right: none;
+}
+
+section.PatronsSection div.PatronsContainer div.Patron img{
+    height: 85%;
+    width: 95%;
+    border-radius: 2%;
+    border: 2px solid gray;
+    /* I want some distance between the image and the top of the product container.*/
+    margin-top: 21px;
+}
+
+section.PatronsSection div.PatronsContainer div.Patron h6{
+    color: rgb(221, 221, 221);
+    text-shadow: 1px 1px 1px orangered;
+    font-size: 20px;
+    text-decoration: underline;
+    /* I want some distance between the heading and the image.*/
+    margin-top: 15px;
+}

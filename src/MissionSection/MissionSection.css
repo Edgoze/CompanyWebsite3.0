@@ -1,0 +1,49 @@
+section.MissionSection {
+    height: 700px;
+    border-radius: 1%;
+    background-image: url(./Images/library.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.85;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+    border: 3px solid gray;
+    /* I want some space between this and the NavBar*/
+    margin-top: 21px;
+}
+
+section.MissionSection div {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.MissionSection div h2 {
+    color: rgb(28, 23, 6);
+    text-shadow: 2px 2px 2px palegoldenrod;
+    text-decoration: underline;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+section.MissionSection div h3 {
+    color: rgb(221, 221, 221);
+    text-shadow: 3.5px 2px 2px black;
+    font-family: Georgia;
+    font-size: 35px;
+    line-height: 40px;
+    /* I want some distance between the h2 and the h3 */
+    margin-top: 20px;
+    /* So that I have two lines rather than one long line */
+    width: 80%;
+}

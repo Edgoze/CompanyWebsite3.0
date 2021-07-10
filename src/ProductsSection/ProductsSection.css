@@ -1,0 +1,81 @@
+section.ProductsSection {
+    height: 550px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid gray;
+    border-radius: 1%;
+    text-align: center;
+    background-image: url('./Images/ProductsSectionBackground.jpeg');
+    background-position: center;
+    background-size: cover;
+    /* I want the text container and product container to appear on top of each other.*/
+    display: flex;
+    flex-direction: column;
+    /* I want some space between this and the MissionSection*/
+    margin-top: 21px;
+}
+
+section.ProductsSection div.TextContainer {
+    border-bottom: 2px solid gray;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.ProductsSection div.TextContainer h4 {
+    font-size: 35px;
+    font-weight: bold;
+    color: palegoldenrod;
+    text-shadow: 3px 3px 2px black;
+    text-decoration: underline;
+}
+
+section.ProductsSection div.TextContainer h5 {
+    color: rgb(221, 221, 221);
+    text-shadow: 1px 1px 1px orangered;
+    font-size: 25px;
+    /* I want some distance between the h4 and the h5 */
+    padding-top: 20px;
+}
+
+section.ProductsSection div.ProductsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* It has this specfic height because it's exactly what I need in order for the right-border of the product divs to reach the 
+    bottom border of the products section.*/
+    height: 77.2%;
+}
+
+section.ProductsSection div.ProductsContainer div.Product{
+    height: 100%;
+    width: 25%;
+    border-right: 2px solid gray;
+}
+
+section.ProductsSection div.ProductsContainer div.lastProduct{
+    border-right: none;
+}
+
+section.ProductsSection div.ProductsContainer div.Product img{
+    height: 75%;
+    width: 95%;
+    border-radius: 2%;
+    border: 2px solid gray;
+    /* I want some distance between the image and the top of the product container.*/
+    margin-top: 21px;
+}
+
+section.ProductsSection div.ProductsContainer div.Product h6{
+    color: rgb(221, 221, 221);
+    text-shadow: 1px 1px 1px orangered;
+    text-decoration: underline;
+    /* I want some distance between the heading and the image.*/
+    margin-top: 20px;
+    /* ... */
+    margin-left: 7%;
+    margin-right: 7%;
+}

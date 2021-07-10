@@ -1,0 +1,17 @@
+section.Footer {
+    height: 40px;
+    border-top: 2px solid gray;
+    background-image: url('../NavBar/Images/NavBarBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    /* Distance between patrons section and footer. */
+    margin-top: 15px;
+}
+
+section.Footer h6 {
+    color: rgb(221, 221, 221);
+    text-shadow: 1px 1px 1px orangered;
+    margin-bottom: 3px;
+}

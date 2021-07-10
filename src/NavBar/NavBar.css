@@ -1,0 +1,55 @@
+section.NavBar {
+    color: palegoldenrod;
+    text-shadow: 2px 2px 2px black;
+    font-family: Georgia;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 3px solid gray;
+    background-image: url(./Images/NavBarBackground.jpg);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    /* Because I want the divs to appear on the same line and to be evenly spaced */
+    display: flex;
+    justify-content: space-between;
+}
+
+section.NavBar div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section.NavBar div.leftContainer {
+    margin-left: 1%;
+    /* Because I want the image and the title to be at the same height*/
+    display: flex;
+    align-items: center;
+}
+
+section.NavBar div.rightContainer {
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+}
+
+section.NavBar div.leftContainer img {
+    border: 2px solid teal;
+    border-radius: 30%;
+    width: 80px;
+    height: 60px;
+}
+
+section.NavBar div.leftContainer h1 {
+    margin-left: 13px;
+}
+
+section.NavBar div.rightContainer a {    
+    display: inline-block;
+    padding: 11px;
+    /* I need this to overcome Chrome's default. */
+    color: palegoldenrod;
+}
+
+section.NavBar div.rightContainer a:hover {
+    color: orangered;
+}
