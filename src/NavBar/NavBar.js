@@ -12,7 +12,7 @@ function NavBar() {
             </div>
             <div className='rightContainer'>
                 <a href='#Mission'><h1>Mission</h1></a>
-                <a href='#Products'><h1>Products</h1></a>
+                <a href='#MemberPerks'><h1>Member Perks</h1></a>
                 <a href='#Patrons'><h1>Patrons</h1></a>
             </div>
         </section>

@@ -4,7 +4,7 @@ section.NavBar {
     font-family: Georgia;
     font-size: 25px;
     font-weight: bold;
-    border-bottom: 3px solid gray;
+    border-bottom: 3px solid white;
     background-image: url(./Images/NavBarBackground.jpg);
     position: sticky;
     top: 0px;

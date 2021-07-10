@@ -9,7 +9,7 @@ function PatronsSection() {
         <section className='PatronsSection'>
             <div className='TextContainer'>
                 <h4>Our Patrons</h4>
-                <h5>Meet the people that make The Good Books Club possible:</h5>
+                <h5>Meet the people that make The Good Book Club possible:</h5>
             </div>
             <div className='PatronsContainer'>
                 <div className='Patron'>

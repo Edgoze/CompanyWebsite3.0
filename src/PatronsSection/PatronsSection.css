@@ -2,10 +2,10 @@ section.PatronsSection {
     height: 640px;
     margin-left: 5%;
     margin-right: 5%;
-    border: 2px solid gray;
+    border: 2px solid white;
     border-radius: 1%;
     text-align: center;
-    background-image: url('./Images/PatronsSectionBackground.jpeg');
+    background-image: url('./Images/PatronsSectionBackground.webp');
     background-position: center bottom;
     background-size: cover;
     /* I want the text container and product container to appear on top of each other.*/
@@ -16,7 +16,7 @@ section.PatronsSection {
 }
 
 section.PatronsSection div.TextContainer {
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid white;
     padding-top: 21px;
     padding-bottom: 21px;
     display: flex;
@@ -51,7 +51,6 @@ section.PatronsSection div.PatronsContainer {
 section.PatronsSection div.PatronsContainer div.Patron{
     height: 100%;
     width: 33.3333%;
-    border-right: 2px solid gray;
 }
 
 section.PatronsSection div.PatronsContainer div.lastPatron{
@@ -62,7 +61,7 @@ section.PatronsSection div.PatronsContainer div.Patron img{
     height: 85%;
     width: 95%;
     border-radius: 2%;
-    border: 2px solid gray;
+    border: 2px solid white;
     /* I want some distance between the image and the top of the product container.*/
     margin-top: 21px;
 }

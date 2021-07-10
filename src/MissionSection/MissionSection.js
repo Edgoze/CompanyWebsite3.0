@@ -1,7 +1,7 @@
 import React from 'react'
 import './MissionSection.css'
 
-function Section() {
+function Mission() {
     return (
         <section className='MissionSection'>
             <div>
@@ -15,4 +15,4 @@ function Section() {
     )
 }
 
-export default Section;
+export default Mission;

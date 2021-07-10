@@ -2,7 +2,7 @@ section.ProductsSection {
     height: 550px;
     margin-left: 5%;
     margin-right: 5%;
-    border: 2px solid gray;
+    border: 2px solid white;
     border-radius: 1%;
     text-align: center;
     background-image: url('./Images/ProductsSectionBackground.jpeg');
@@ -16,7 +16,7 @@ section.ProductsSection {
 }
 
 section.ProductsSection div.TextContainer {
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid white;
     padding-top: 21px;
     padding-bottom: 21px;
     display: flex;
@@ -53,7 +53,6 @@ section.ProductsSection div.ProductsContainer {
 section.ProductsSection div.ProductsContainer div.Product{
     height: 100%;
     width: 25%;
-    border-right: 2px solid gray;
 }
 
 section.ProductsSection div.ProductsContainer div.lastProduct{
@@ -64,7 +63,7 @@ section.ProductsSection div.ProductsContainer div.Product img{
     height: 75%;
     width: 95%;
     border-radius: 2%;
-    border: 2px solid gray;
+    border: 2px solid white;
     /* I want some distance between the image and the top of the product container.*/
     margin-top: 21px;
 }

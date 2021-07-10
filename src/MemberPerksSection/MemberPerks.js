@@ -1,15 +1,15 @@
 import React from 'react';
-import './ProductsSection.css'
+import './MemberPerks.css'
 import got from './Images/got-books.jpg'
 import kingkiller from './Images/kingkiller.jpg'
 import kings from './Images/way-of-kings.jpg'
 import lord from './Images/lord-ring.jpg'
 
-function ProductsSection() {
+function MemberPerks() {
     return (
         <section className='ProductsSection'>
             <div className='TextContainer'>
-                <h4>Our Products</h4>
+                <h4>Member Perks</h4>
                 <h5>Check out our member-exclusive, limited edition, leather-bound volumes:</h5>
             </div>
             <div className='ProductsContainer'>
@@ -34,4 +34,4 @@ function ProductsSection() {
     )
 }
 
-export default ProductsSection;
+export default MemberPerks;

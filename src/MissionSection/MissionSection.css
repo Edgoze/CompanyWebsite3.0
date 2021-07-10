@@ -1,25 +1,26 @@
 section.MissionSection {
     height: 700px;
-    border-radius: 1%;
-    background-image: url(./Images/library.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.85;
     margin-left: 3%;
     margin-right: 3%;
+    border: 3px solid white;
+    border-radius: 2%;
+    background-image: url(./Images/library.jpeg);
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
-    border: 3px solid gray;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
     /* I want some space between this and the NavBar*/
-    margin-top: 21px;
+    margin-top: 20px;
 }
 
 section.MissionSection div {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-    border-top: 2px solid gray;
-    border-bottom: 2px solid gray;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -28,22 +29,22 @@ section.MissionSection div {
 }
 
 section.MissionSection div h2 {
-    color: rgb(28, 23, 6);
-    text-shadow: 2px 2px 2px palegoldenrod;
+    color: rgb(221, 221, 221);;
+    text-shadow: 3px -2px 1px black;
     text-decoration: underline;
     font-family: Georgia;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 section.MissionSection div h3 {
-    color: rgb(221, 221, 221);
-    text-shadow: 3.5px 2px 2px black;
+    width: 80%;
+    color: palegoldenrod;
+    text-shadow: 5px -2px 1px black;
     font-family: Georgia;
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 60px;
     /* I want some distance between the h2 and the h3 */
     margin-top: 20px;
-    /* So that I have two lines rather than one long line */
-    width: 80%;
 }

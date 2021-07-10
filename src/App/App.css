@@ -4,7 +4,9 @@
 
 body {
   background-image: url(./Images/GlobalBackgroundImage.jpeg);
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center top;
 }
 
 /* If you want to land in a higher position, increase the number of pixels in both padding-top and margin-top. */
