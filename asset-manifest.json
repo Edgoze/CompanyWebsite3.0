@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CompanyWebsite3.0/static/css/main.e711e412.chunk.css",
-    "main.js": "/CompanyWebsite3.0/static/js/main.8fcd2175.chunk.js",
-    "main.js.map": "/CompanyWebsite3.0/static/js/main.8fcd2175.chunk.js.map",
+    "main.css": "/CompanyWebsite3.0/static/css/main.9ab6b20f.chunk.css",
+    "main.js": "/CompanyWebsite3.0/static/js/main.34fe68fd.chunk.js",
+    "main.js.map": "/CompanyWebsite3.0/static/js/main.34fe68fd.chunk.js.map",
     "runtime-main.js": "/CompanyWebsite3.0/static/js/runtime-main.3f447d03.js",
     "runtime-main.js.map": "/CompanyWebsite3.0/static/js/runtime-main.3f447d03.js.map",
     "static/js/2.f96e74c9.chunk.js": "/CompanyWebsite3.0/static/js/2.f96e74c9.chunk.js",
@@ -10,15 +10,15 @@
     "static/js/3.93e1bced.chunk.js": "/CompanyWebsite3.0/static/js/3.93e1bced.chunk.js",
     "static/js/3.93e1bced.chunk.js.map": "/CompanyWebsite3.0/static/js/3.93e1bced.chunk.js.map",
     "index.html": "/CompanyWebsite3.0/index.html",
-    "static/css/main.e711e412.chunk.css.map": "/CompanyWebsite3.0/static/css/main.e711e412.chunk.css.map",
+    "static/css/main.9ab6b20f.chunk.css.map": "/CompanyWebsite3.0/static/css/main.9ab6b20f.chunk.css.map",
     "static/js/2.f96e74c9.chunk.js.LICENSE.txt": "/CompanyWebsite3.0/static/js/2.f96e74c9.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/CompanyWebsite3.0/static/media/GlobalBackgroundImage.4e603fd0.jpeg",
+    "static/media/App.css": "/CompanyWebsite3.0/static/media/GlobalBackgroundImage.dc3b2a7f.jpeg",
     "static/media/Footer.css": "/CompanyWebsite3.0/static/media/NavBarBackground.a9b7fc2e.jpg",
-    "static/media/PatronsSection.css": "/CompanyWebsite3.0/static/media/PatronsSectionBackground.da01d40b.jpeg",
-    "static/media/ProductsSection.css": "/CompanyWebsite3.0/static/media/ProductsSectionBackground.492ce378.jpeg",
+    "static/media/PatronsSection.css": "/CompanyWebsite3.0/static/media/PatronsSectionBackground.1b8648bc.webp",
+    "static/media/MemberPerks.css": "/CompanyWebsite3.0/static/media/ProductsSectionBackground.339f3aaa.jpeg",
     "static/media/got-books.04173e5b.jpg": "/CompanyWebsite3.0/static/media/got-books.04173e5b.jpg",
     "static/media/kingkiller.cd7bca45.jpg": "/CompanyWebsite3.0/static/media/kingkiller.cd7bca45.jpg",
-    "static/media/MissionSection.css": "/CompanyWebsite3.0/static/media/library.6a21cd7b.jpg",
+    "static/media/MissionSection.css": "/CompanyWebsite3.0/static/media/library.4e603fd0.jpeg",
     "static/media/lord-ring.30056a55.jpg": "/CompanyWebsite3.0/static/media/lord-ring.30056a55.jpg",
     "static/media/martin3.a8595e62.jpeg": "/CompanyWebsite3.0/static/media/martin3.a8595e62.jpeg",
     "static/media/rothfuss.6f68ac55.jpg": "/CompanyWebsite3.0/static/media/rothfuss.6f68ac55.jpg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.3f447d03.js",
     "static/js/2.f96e74c9.chunk.js",
-    "static/css/main.e711e412.chunk.css",
-    "static/js/main.8fcd2175.chunk.js"
+    "static/css/main.9ab6b20f.chunk.css",
+    "static/js/main.34fe68fd.chunk.js"
   ]
 }
