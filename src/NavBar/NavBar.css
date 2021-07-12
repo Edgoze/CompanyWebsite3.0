@@ -48,6 +48,7 @@ section.NavBar div.rightContainer a {
     padding: 11px;
     /* I need this to overcome Chrome's default. */
     color: palegoldenrod;
+    transition: color 0.5s ease-out;
 }
 
 section.NavBar div.rightContainer a:hover {
